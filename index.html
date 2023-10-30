@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      #more {
+        display: none;
+      }
+    </style>
+    <title>Kasus Anak Anggota DPR Aniaya Kekasih Hingga Tewas</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--       loader -->
+    <div class="loader"></div>
+    <!-- Header -->
+    <div class="medsos">
+      <div class="container">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=100072445284081"
+              ><i class="fa-brands fa-square-facebook fa-bounce"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCGtgfkDN43t9v9jpemSd9YQ"
+              ><i class="fa-brands fa-youtube fa-bounce"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/nico_j23/"
+              ><i class="fa-brands fa-instagram fa-bounce"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <header>
+      <div class="container">
+        <h1><a href="index.html">BERITA.com</a></h1>
+        <ul>
+          <li class="active"><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- banner -->
+    <section class="banner">
+      <h2>Kasus Kontroversial Penganiayaan oleh Anak Pejabat Negara</h2>
+    </section>
+    <!-- about -->
+    <section class="about">
+      <div class="container">
+        <h5>
+          <li>
+            <a href=""><i class="fa-solid fa-circle-info fa-fade"></i></a>
+          </li>
+          berita.com - 10/29/2023, 22.00 pm
+        </h5>
+        <h3>
+          Kasus Kontroversial Penganiayaan oleh Anak Pejabat Negara: Menyoroti
+          Keadilan di Balik Nama dan Kekuasaan
+        </h3>
+        <p>
+          <strong
+            >Kasus mengenai anak anggota DPR yang menganiaya kekasih hingga
+            tewas</strong
+          >
+          adalah sebuah peristiwa yang serius dan membutuhkan perhatian serius
+          dari berbagai pihak terkait. Dalam kasus semacam ini, penting bagi
+          kita untuk memperlakukan setiap individu sebagai tersangka sampai
+          terbukti bersalah oleh proses hukum yang adil dan objektif. Kekerasan
+          dalam hubungan pribadi adalah tindakan yang tidak dapat diterima dalam
+          masyarakat. Kasus seperti ini mengingatkan kita akan pentingnya
+          menjaga keamanan dan keselamatan dalam hubungan intim. Tindakan
+          kekerasan tidak hanya melanggar hukum, tetapi juga melanggar hak asasi
+          manusia dan martabat individu.
+          <span id="dots"
+            >Dalam menangani kasus semacam ini, penting bagi sistem peradilan
+            untuk menyelidiki secara menyeluruh dan objektif, memastikan adanya
+            keadilan bagi korban dan tersangka, serta mengambil langkah untuk
+            mencegah terjadinya kejadian serupa di masa depan. Hal ini
+            mencangkup proses penyidikan yang profesional, pengumpulan bukti
+            yang kuat, serta persidangan yang adil dan transparan. Kasus semacam
+            ini juga harus mengingatkan kita akan pentingnya pendidikan dan
+            kesadaran akan pentingnya pendidikan dan kesadaran akan pentingnya
+            membangun hubungan yang sehat, saling menghormati, dan tidak
+            melakukan tindakan kekerasan. Pendidikan mengenai kekerasan dalam
+            hubungan pribadi harus ditingkatkan di semua lapisan masyarakat agar
+            dapat mencegah terjadinya kasus serupa di masa depan. Harapannya,
+            melalui pemahaman yang lebih baik tentang pentingnya hubungan yang
+            sehat dan penegakan hukum yang adil, kita dapat mencegah dan
+            mengurangi kejadian kekerasan dalam hubungan pribadi.</span
+          ><span id="more"></span>
+        </p>
+        <button onclick="myFunction()" id="myBtn">Read more</button>
+        <script>
+          function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+              dots.style.display = "inline";
+              btnText.innerHTML = "Read more";
+              moreText.style.display = "none";
+            } else {
+              dots.style.display = "none";
+              btnText.innerHTML = "Read less";
+              moreText.style.display = "inline";
+            }
+          }
+        </script>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <small>Copyright &copy; 2023 - berita.com - All Rights Reserved.</small>
+      </div>
+    </footer>
+  </body>
+</html>
